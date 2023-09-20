@@ -35,7 +35,7 @@ int executeExternalCommand(char **tokens)
  * @tokens: Array of tokens/arguments for the command
  *
  * Return: 0 if command is a built-in and executed, -1 otherwise
- */
+ 
 int handleBuiltInCommand(char **tokens)
 {
     if (tokens == NULL || tokens[0] == NULL)
@@ -47,7 +47,9 @@ int handleBuiltInCommand(char **tokens)
         exit(0);
     }
 
-    /* Add more built-in commands here, e.g., "cd" and "help" */
+    /* Add more built-in commands here, e.g., "cd" and "help" 
 
     return (-1);
+    
 }
+*/
