@@ -28,6 +28,9 @@ int executeExternalCommand(char **tokens)
 /* Function to handle built-in commands     */
 int handleBuiltInCommand(char **tokens)
 {
+    if (tokens[0] == NULL)
+        return (-1);
+    
     if (strcmp(tokens[0], "exit") == 0)
     {
         printf("Goodbye!\n");
