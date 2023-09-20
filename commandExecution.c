@@ -30,6 +30,9 @@ int handleBuiltInCommand(char **tokens)
 {
     if (tokens[0] == NULL)
         return (-1);
+    if (tokens[0]) {
+    printf("Token[0]: %s\n", tokens[0]);
+    }
     
     if (strcmp(tokens[0], "exit") == 0)
     {
