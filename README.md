@@ -2,7 +2,7 @@
 # Basic Shell Emulation in C
 
 ## Authors
-Delbert $ Silvia
+DelbertKipyegon  $ SilviaIrware
 
 ## Description
 This project represents a basic emulation of a shell, built using the C programming language. It seeks to provide a foundational understanding of shell behaviors and operations by allowing users to execute commands in an emulated environment.
@@ -51,10 +51,6 @@ You'll be presented with a prompt, ready to receive and execute commands.
 ## Contributing
 
 Contributions are welcome! Kindly fork the repository, make your desired changes, and submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
