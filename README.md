@@ -2,7 +2,7 @@
 # Basic Shell Emulation in C
 
 ## Authors
-Silvia Irware & Delbert Kipyegon
+Delbert $ Silvia
 
 ## Description
 This project represents a basic emulation of a shell, built using the C programming language. It seeks to provide a foundational understanding of shell behaviors and operations by allowing users to execute commands in an emulated environment.
